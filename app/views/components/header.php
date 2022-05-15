@@ -1,7 +1,9 @@
 <div class="header col-12">
     <div class="main-header col-10">
         <div class="logo col-2">
-            <div id="logo-wrap"><p>THDD</p></div>
+            <div id="logo-wrap">
+                <a href="#foot"><p>THDD</p></a>
+            </div>
             <div class="mobile-cart-account">
                 <div class="cart">
                     <img src= "../../../public/res/img/header-image/cart.png" alt="" ></img>
@@ -30,7 +32,7 @@
                 <span>Đăng nhập</span>
             </div>
             <div class="cart">
-                <img src= "../../../public/res/img/header-image/cart.png" alt="" onClick={linkToCart}></img>
+                <img src= "../../../public/res/img/header-image/cart.png" alt="" onclick="linkToCart()"></img>
                 <span class="circle">5</span>
             </div>
         </div>

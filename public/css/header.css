@@ -1,13 +1,11 @@
-@font-face {
-    font-family: logo_font;
-    src: url('../../public/res/font/LilitaOne-Regular.ttf');
-}
-
 @media only screen and (max-width: 768px){
     .header{
         background-color: #68D69D;
         height: 100px;
-        margin-top: 0;
+        /* margin-top: -10px; */
+        position: fixed;
+        z-index: 3;
+        display: inline-block;
     }
     
     .main-header{
@@ -149,6 +147,7 @@
         background-color: #68D69D;
         height: 80px;
         margin-top: 0;
+        position: fixed;
     }
     
     .main-header{
@@ -286,6 +285,7 @@
         background-color: #68D69D;
         height: 80px;
         margin-top: 0;
+        position: fixed;
     }
     
     .main-header{

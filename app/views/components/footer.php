@@ -1,4 +1,4 @@
-<div class="footer col-12">
+<div class="footer col-12" id="foot">
     <div class="main-footer col-10">
         <div class="store-info">
         <h2>Công ty TNHH THDD</h2>

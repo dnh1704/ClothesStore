@@ -13,21 +13,10 @@
             require '../components/header.php';
         ?>
         <div class="body col-12">
-            <div>
-                <?php 
-                    require '../../config/config.php';
-                    echo ROOT;
-                    echo URL;
-                ?>
-            </div>
+            <h1>This page is cart.</h1>
         </div>
         <?php 
             require '../components/footer.php';
         ?>
     </body>
-    <script>
-        function linkToCart() {
-            window.location.href = "../cart/cart.php";
-        }
-    </script>
 </html>

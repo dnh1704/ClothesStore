@@ -1,7 +1,17 @@
+@font-face {
+    font-family: logo_font;
+    src: url('../../public/res/font/LilitaOne-Regular.ttf');
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial;
+}
+
+a{
+    text-decoration: none;
 }
 
 body{
