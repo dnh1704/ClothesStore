@@ -31,11 +31,13 @@
 .order-detail-product{
     width: 90%;
     margin-left: 5%;
-    height: 120px;
+    /* height: 120px; */
     border-bottom: 1px solid #353434;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .product-image{
@@ -48,7 +50,7 @@
 }
 
 .product-info{
-    height: 100px;
+    /* height: 100px; */
     width: calc(75% - 100px);
 }
 

@@ -1,6 +1,7 @@
 .order-header-wrap{
     background-color: #FFFFFF;
     position: fixed;
+    z-index: 2;
 }
 
 #hamburger-icon {

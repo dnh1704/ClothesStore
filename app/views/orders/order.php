@@ -29,7 +29,7 @@
                 <b class="ship-success">Giao hàng thành công</b>
             </div><div class="order-detail-product">
                 <div class="product-image">
-                    <img src="../../../public/res/img/orders/product1.jpg" alt="" srcset="">
+                    <img src="../../../public/res/img/products/product1.jpg" alt="" srcset="">
                 </div><div class="product-info">
                     <div class="info-detail product-title">Áo phông tay lỡ Hàn Quốc, áo phông màu trắng form...</div>
                     <div class="info-detail product-category">Phân loại hàng : M(30-50kg)</div>
@@ -54,7 +54,7 @@
                 <b class="confirm-waiting">Chờ xác nhận</b>
             </div><div class="order-detail-product">
                 <div class="product-image">
-                    <img src="../../../public/res/img/orders/product1.jpg" alt="" srcset="">
+                    <img src="../../../public/res/img/products/product1.jpg" alt="" srcset="">
                 </div><div class="product-info">
                     <div class="info-detail product-title">Áo phông tay lỡ Hàn Quốc, áo phông màu trắng form...</div>
                     <div class="info-detail product-category">Phân loại hàng : M(30-50kg)</div>
