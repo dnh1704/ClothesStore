@@ -8,16 +8,25 @@
     
 }
 
+.box-card{
+    /* border: 1px solid; */
+    padding: 20px 20px;
+    background-color: #fff;
+}
 .card-wrapper{
-    max-width: 1100px;
+    width: 100%;
+    /* max-width: 1100px; */
     margin: 0 auto;
-    padding-top: 120px;
+    padding-top: 80px;
+    
+    
 }
 .card-wrapper img{
     width: 100%;
     display: block;
     object-fit: cover;
     object-position: center;
+    
 }
 .img-display{
     overflow: hidden;
@@ -202,15 +211,62 @@
 }
 
 
-.bar-product-detail{
+.bar-product-detail-1, .bar-product-detail-2{
     margin-top: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     background-color: #68D69D;
+    margin-left: 50px;
+
 }
 
-.bar-product-detail p {
+.bar-product-detail-1 p, .bar-product-detail-2 p {
     color: #401D83;
     font-weight: bold;
+    margin-left: 20px;
+}
+
+.box-product-detail{
+    /* padding: 20px 20px; */
+    background-color: #fff;
+    margin-left: 125px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content-product-detail{
+    display: inline-table;
+}
+
+.product-d-length, .product-d-hand, .product-d-collar ,.product-d-session ,
+.product-d-color ,.product-d-material , .product-d-madein {
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.length-name, .hand-name, .collar-name, .session-name , .color-name ,.material-name , 
+.madein-name {
+    margin-left: 120px;
+    color: #68D69D;
+    width: 120px;
+}
+
+.length-value ,.madein-value ,.material-value ,.color-value  ,.session-value
+,.collar-value ,.hand-value {
+    padding-left: 160px;
+}
+
+.product-description-content{ 
+    word-break: break-all;
+    margin-top: 80px;
+    
+    padding-left: 4.16%;
+    padding-right: 4.16%;
+}
+.product-description-content pre{
+    display: inline;
+    width: 120px;
+    white-space: pre-wrap;
 }
